@@ -11,7 +11,7 @@ public class Lista {
         this.primerNodo=nuevoNodo;
     }    
     public int calcularFaltante(int n){
-        int suma = n*(n+1);
+        int suma = n*(n+1)/2;
         return suma;
     }
 }

@@ -10,4 +10,8 @@ public class Lista {
         nuevoNodo.siguienteNodo=this.primerNodo;
         this.primerNodo=nuevoNodo;
     }    
+    public int calcularFaltante(int n){
+        int suma = n*(n+1);
+        return suma;
+    }
 }

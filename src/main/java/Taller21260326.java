@@ -12,8 +12,10 @@ public class Taller21260326 {
      Lista lista=new Lista();
      
      for(int i=0; i=<n;i++){
+         //error
          int numero=sc.nextInt();
          lista.insertar(numero);
      }
     }
+    
 }

@@ -7,7 +7,7 @@ public class Taller21260326 {
         int n =sc.nextInt();
         
         System.out.println("Ingrese un numero: ");
-        int n=sc.nextInt();
+        int n =sc.nextInt();
        
      Lista lista=new Lista();
      
@@ -16,6 +16,7 @@ public class Taller21260326 {
          int numero=sc.nextInt();
          lista.insertar(numero);
      }
+        System.out.println(lista.calcularFaltante(n));
     }
     
 }

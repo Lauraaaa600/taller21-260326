@@ -9,6 +9,11 @@ public class Taller21260326 {
         System.out.println("Ingrese un numero: ");
         int n=sc.nextInt();
        
-       
+     Lista lista=new Lista();
+     
+     for(int i=0; i=<n;i++){
+         int numero=sc.nextInt();
+         lista.insertar(numero);
+     }
     }
 }

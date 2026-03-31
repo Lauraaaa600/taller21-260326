@@ -12,6 +12,9 @@ public class Lista {
     }    
     public int calcularFaltante(int n){
         int suma = n*(n+1)/2;
+        for(Nodo actual = primerNodo;actual!=null;actual=actual.siguienteNodo){
+            suma -= actual.dato;
+        }
         return suma;
     }
 }

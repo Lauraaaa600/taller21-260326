@@ -19,7 +19,8 @@ public class Taller21260326 {
          lista.insertar(i);
         }
      }
-        System.out.println(lista.calcularFaltante(n));
+        lista.mostrarOrdenado(lista.primerNodo);
+        System.out.println();
     }
     
 }

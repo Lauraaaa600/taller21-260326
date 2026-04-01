@@ -2,18 +2,19 @@
 public class Lista {
 
         Nodo primerNodo;
-    public Lista(){
+        public Lista(){
             this.primerNodo=null;
         }
-    public void insertar(int dato){
-        Nodo nuevoNodo=new Nodo(dato);
-        nuevoNodo.siguienteNodo=primerNodo;
+        public void insertar(int dato){
+            Nodo nuevoNodo=new Nodo(dato);
+            nuevoNodo.siguienteNodo=primerNodo;
+            primerNodo=nuevoNodo;
         
     }    
-    public void mostrarOrdenado(Nodo Nodo){
-        if(primerNodo==null)return;
-        mostrarOrdenado(primerNodo.siguienteNodo);
-        System.out.print(primerNodo.dato);
+    public void mostrarOrdenado(Nodo nuevoNodo){
+        if(nuevoNodo==null)return;
+        mostrarOrdenado(nuevoNodo.siguienteNodo);
+        System.out.print(nuevoNodo.dato);
         
     }
     public int calcularFaltante(int total){

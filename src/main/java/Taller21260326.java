@@ -10,8 +10,9 @@ public class Taller21260326 {
         
         System.out.println("Ingrese un numero: ");
         int n =sc.nextInt();
-       
-     Lista lista=new Lista();
+        
+        int faltante = rand.nextInt(n)+1;
+        Lista lista=new Lista();
      
      for(int i=0; i<n-1;i++){
          //error

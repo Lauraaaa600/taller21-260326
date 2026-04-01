@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>Mavenproject1</exec.mainClass>
+        <exec.mainClass>Taller21260326</exec.mainClass>
     </properties>
     <name>taller21-260326</name>
 </project>

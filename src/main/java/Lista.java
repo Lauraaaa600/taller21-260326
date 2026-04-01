@@ -16,11 +16,13 @@ public class Lista {
         System.out.print(primerNodo.dato);
         
     }
-    public int calcularFaltante(int n){
-        int suma = n*(n+1)/2;
+    public int calcularFaltante(int total){
+        int sumaEsperada = total*(total+1)/2;
+        int sumaLista=0;
+        
         for(Nodo actual = primerNodo;actual!=null;actual=actual.siguienteNodo){
-            suma -= actual.dato;
+            sumaLista+= actual.dato;
         }
-        return suma;
+        return sumaEsperada-sumaLista;
     }
 }

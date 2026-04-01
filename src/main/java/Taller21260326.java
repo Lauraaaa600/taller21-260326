@@ -14,10 +14,10 @@ public class Taller21260326 {
         int faltante = rand.nextInt(n)+1;
         Lista lista=new Lista();
      
-     for(int i=0; i<n-1;i++){
-         //error
-         int numero=sc.nextInt();
-         lista.insertar(numero);
+     for(int i=1; i<n; i++){
+         if(i!=faltante){
+         lista.insertar(i);
+        }
      }
         System.out.println(lista.calcularFaltante(n));
     }
